@@ -23,4 +23,8 @@ Passwords are encrypted using Fernet encryption and decrypted when retrieved.
 Key Derivation:
 
 Uses PBKDF2 with HMAC-SHA256 to derive a secure encryption key from the master password, combined with a pepper value for added security.
+Interface Options:
 
+Add Password: Save new passwords securely.
+Retrieve Password: Decrypt and view stored passwords.
+Change Master Password: Update the master password and regenerate the encryption key
